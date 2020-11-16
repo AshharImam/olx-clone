@@ -1,0 +1,53 @@
+.categories {
+  display: flex;
+  align-items: center;
+  padding: 10px 10%;
+}
+
+.categories button {
+  background-color: transparent;
+  border: none;
+}
+
+.categories__btn {
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.categories__btn:hover {
+  color: #002f34;
+}
+
+.categories__btn > h3 {
+  font-weight: 600;
+}
+
+.categories__btnIcon {
+  font-size: 35px;
+}
+
+.categories__category {
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+.categories__category:hover {
+  color: #002f34;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.dropdown-menu > a {
+  text-decoration: none;
+}
